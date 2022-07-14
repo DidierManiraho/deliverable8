@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Airbnb</title>
+  </head>
+  <body class="bg-black">
+    <nav class="py-6 flex justify-between items-center">
+      <!-- left logo -->
+      <a href="#" class="inline-flex items-center ml-7 text-xl text-white"
+        >Airbnb</a
+      >
+
+      <!-- center nav  -->
+      <ul class="flex items-center space-x-8">
+        <li>
+          <a class="text-gray-100 hover:text-gray-900 font-medium" href="#"
+            >Place to stay</a
+          >
+        </li>
+        <li>
+          <a class="text-gray-100 hover:text-gray-900 font-medium" href="#"
+            >Experiences</a
+          >
+        </li>
+        <li>
+          <a class="text-gray-100 hover:text-gray-900 font-medium" href="#"
+            >Online Experiences</a
+          >
+        </li>
+      </ul>
+
+      <!-- right menu -->
+      <ul class="flex items-center space-x-8 px-6">
+        <li>
+          <a class="text-gray-100 hover:text-gray-200 font-medium" href="#"
+            >Become a host</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Form -->
+    <section
+      class="flex w-1/2 mx-auto h-20 rounded-full bg-white items-center justify-between relative"
+    >
+      <div class="flex mx-auto w-max p-6 m-2">
+        <div class="">
+          <label for="location">Location</label>
+          <input type="text" placeholder="Where you want to go" />
+        </div>
+        <div class="">
+          <label for="Check-in">Check-in</label>
+          <input type="text" placeholder="Where you want to go" />
+        </div>
+        <div class="">
+          <label for="Check-in">Check-out</label>
+          <input type="text" placeholder="Where you want to go" />
+        </div>
+        <div class="">
+          <label for="Check-in">Guest</label>
+          <input type="text" placeholder="Where you want to go" />
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <!-- call to action -->
+    <main class="bg-red-500 h-96 w-11/12 mx-auto rounded">
+      <div class="flex justify-center items-center pt-24"></div>
+      <h1
+        class="text-white text-5xl font-medium flex justify-center items-center"
+      >
+        Help House 100&#44;000 refugees fleeing Ukraine
+      </h1>
+      <br />
+      <div class="flex justify-center items-center">
+        <button
+          class="flex justify-center items-center text-white p-4 rounded outline outline-offset-0 h-5"
+        >
+          Learn more
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
